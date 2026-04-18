@@ -73,5 +73,8 @@ public class AccountController {
         System.out.println("method for updating the mobile number by using account number");
     }
 
+    public void hello(){
+        System.out.println("hello world");
+    }
 
 }
