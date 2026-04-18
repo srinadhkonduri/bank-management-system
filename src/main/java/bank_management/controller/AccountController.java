@@ -67,4 +67,11 @@ public class AccountController {
         service.deleteAccount(mobile);
         System.out.println("successfully deleted account by using mobile number");
     }
+
+    @PutMapping("/update{accountNumber}")
+    public void updateAccounts(@PathVariable String mobile, @PathVariable String accountNUmber){
+        System.out.println("method for updating the mobile number by using account number");
+    }
+
+
 }
